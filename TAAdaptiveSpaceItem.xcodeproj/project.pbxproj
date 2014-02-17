@@ -18,6 +18,8 @@
 		223CB62C18B1FF03008D7A5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223CB60B18B1FF02008D7A5C /* Cocoa.framework */; };
 		223CB63418B1FF03008D7A5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 223CB63218B1FF03008D7A5C /* InfoPlist.strings */; };
 		223CB63618B1FF03008D7A5C /* TAAdaptiveSpaceItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CB63518B1FF03008D7A5C /* TAAdaptiveSpaceItemTests.m */; };
+		223CB64218B20053008D7A5C /* TAAdaptiveSpaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CB64118B20053008D7A5C /* TAAdaptiveSpaceItem.m */; };
+		223CB64518B20099008D7A5C /* TAAdaptiveSpaceItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 223CB64418B20099008D7A5C /* TAAdaptiveSpaceItemView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		223CB63118B1FF03008D7A5C /* TAAdaptiveSpaceItemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TAAdaptiveSpaceItemTests-Info.plist"; sourceTree = "<group>"; };
 		223CB63318B1FF03008D7A5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		223CB63518B1FF03008D7A5C /* TAAdaptiveSpaceItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAdaptiveSpaceItemTests.m; sourceTree = "<group>"; };
+		223CB64018B20053008D7A5C /* TAAdaptiveSpaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAdaptiveSpaceItem.h; sourceTree = "<group>"; };
+		223CB64118B20053008D7A5C /* TAAdaptiveSpaceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAdaptiveSpaceItem.m; sourceTree = "<group>"; };
+		223CB64318B20099008D7A5C /* TAAdaptiveSpaceItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAdaptiveSpaceItemView.h; sourceTree = "<group>"; };
+		223CB64418B20099008D7A5C /* TAAdaptiveSpaceItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAdaptiveSpaceItemView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +82,8 @@
 		223CB5FF18B1FF02008D7A5C = {
 			isa = PBXGroup;
 			children = (
-				223CB61118B1FF02008D7A5C /* TAAdaptiveSpaceItem */,
+				223CB63F18B1FF2F008D7A5C /* TAAdaptiveSpaceItem */,
+				223CB61118B1FF02008D7A5C /* Demo Project */,
 				223CB62F18B1FF03008D7A5C /* TAAdaptiveSpaceItemTests */,
 				223CB60A18B1FF02008D7A5C /* Frameworks */,
 				223CB60918B1FF02008D7A5C /* Products */,
@@ -112,7 +119,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		223CB61118B1FF02008D7A5C /* TAAdaptiveSpaceItem */ = {
+		223CB61118B1FF02008D7A5C /* Demo Project */ = {
 			isa = PBXGroup;
 			children = (
 				223CB61D18B1FF02008D7A5C /* TAAppDelegate.h */,
@@ -121,6 +128,7 @@
 				223CB62318B1FF03008D7A5C /* Images.xcassets */,
 				223CB61218B1FF02008D7A5C /* Supporting Files */,
 			);
+			name = "Demo Project";
 			path = TAAdaptiveSpaceItem;
 			sourceTree = "<group>";
 		};
@@ -152,6 +160,17 @@
 				223CB63218B1FF03008D7A5C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		223CB63F18B1FF2F008D7A5C /* TAAdaptiveSpaceItem */ = {
+			isa = PBXGroup;
+			children = (
+				223CB64018B20053008D7A5C /* TAAdaptiveSpaceItem.h */,
+				223CB64118B20053008D7A5C /* TAAdaptiveSpaceItem.m */,
+				223CB64318B20099008D7A5C /* TAAdaptiveSpaceItemView.h */,
+				223CB64418B20099008D7A5C /* TAAdaptiveSpaceItemView.m */,
+			);
+			name = TAAdaptiveSpaceItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				223CB61818B1FF02008D7A5C /* main.m in Sources */,
+				223CB64518B20099008D7A5C /* TAAdaptiveSpaceItemView.m in Sources */,
 				223CB61F18B1FF02008D7A5C /* TAAppDelegate.m in Sources */,
+				223CB64218B20053008D7A5C /* TAAdaptiveSpaceItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
