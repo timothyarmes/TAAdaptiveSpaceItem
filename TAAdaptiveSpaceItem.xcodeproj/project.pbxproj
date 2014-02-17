@@ -129,7 +129,7 @@
 				223CB61218B1FF02008D7A5C /* Supporting Files */,
 			);
 			name = "Demo Project";
-			path = TAAdaptiveSpaceItem;
+			path = TAAdaptiveSpaceItemDemo;
 			sourceTree = "<group>";
 		};
 		223CB61218B1FF02008D7A5C /* Supporting Files */ = {
@@ -170,7 +170,7 @@
 				223CB64318B20099008D7A5C /* TAAdaptiveSpaceItemView.h */,
 				223CB64418B20099008D7A5C /* TAAdaptiveSpaceItemView.m */,
 			);
-			name = TAAdaptiveSpaceItem;
+			path = TAAdaptiveSpaceItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,8 +407,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TAAdaptiveSpaceItem/TAAdaptiveSpaceItem-Prefix.pch";
-				INFOPLIST_FILE = "TAAdaptiveSpaceItem/TAAdaptiveSpaceItem-Info.plist";
+				GCC_PREFIX_HEADER = "TAAdaptiveSpaceItemDemo/TAAdaptiveSpaceItem-Prefix.pch";
+				INFOPLIST_FILE = "TAAdaptiveSpaceItemDemo/TAAdaptiveSpaceItem-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -420,8 +420,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TAAdaptiveSpaceItem/TAAdaptiveSpaceItem-Prefix.pch";
-				INFOPLIST_FILE = "TAAdaptiveSpaceItem/TAAdaptiveSpaceItem-Info.plist";
+				GCC_PREFIX_HEADER = "TAAdaptiveSpaceItemDemo/TAAdaptiveSpaceItem-Prefix.pch";
+				INFOPLIST_FILE = "TAAdaptiveSpaceItemDemo/TAAdaptiveSpaceItem-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -486,6 +486,7 @@
 				223CB63B18B1FF03008D7A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		223CB63C18B1FF03008D7A5C /* Build configuration list for PBXNativeTarget "TAAdaptiveSpaceItemTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +495,7 @@
 				223CB63E18B1FF03008D7A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
