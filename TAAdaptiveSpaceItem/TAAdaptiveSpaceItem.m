@@ -57,7 +57,7 @@
     return [super minSize];
 }
 
--(NSSize)maxSize
+- (NSSize)maxSize
 {
     NSSize size = [super maxSize];
     return NSMakeSize([self minSize].width, size.height);
